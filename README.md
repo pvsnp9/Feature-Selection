@@ -6,26 +6,32 @@ output variables.
 
 **There are two main types of Feature Selection:**
 
-**- Supervised Selection:**  
-Do not use the target variable (e.g. remove redundant variables). it is further categorized into three main categories. 
+**Supervised Selection:**  
+
+Use the target variable (e.g. remove irrelevant variables). it is further categorized into three main categories. 
     
-    **- Filter Method:** 
+    - Filter Method
     Select subsets of features based on their relationship with the target.
-    - Basics: (Constant, Quasi-Constant, Duplicated)
-    - Correlation 
-    - Statistical measures: (Fisher Score, Univariate method, mutual information)
+        - Basics: (Constant, Quasi-Constant, Duplicated)
+        - Correlation 
+        - Statistical measures: (Fisher Score, Univariate method, mutual information)
 
-    **- Wrapper method:**
+    - Wrapper method:
     Search subsets of features that perform according to a predictive model.
-    - Step forward Selection 
-    - Step Backward Selection 
-    - Exhaustive Search 
-    - Feature shuffling 
+        - Step forward Selection 
+        - Step Backward Selection 
+        - Exhaustive Search 
+        - Feature shuffling 
 
-    **- Embedded Methods:**
-    - LASSO
-    - Decision tree derived importance 
-    - Regression Coefficients 
+    - Embedded Methods:
+        - LASSO
+        - Decision tree derived importance 
+        - Regression Coefficients 
 
-    **- Hybrid Methods:**
-    - Recursive Feature Elimination 
+    - Hybrid Methods:
+        - Recursive Feature Elimination 
+
+**Unsupervised Learning**
+
+Do not use the target variable (e.g. remove redundant variables). Unsupervised feature selection techniques ignore the target variable, such as methods that
+remove redundant variables using correlation or features that have few values or low variance(i.e. data cleaning).
