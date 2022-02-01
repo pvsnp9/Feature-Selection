@@ -10,3 +10,22 @@ output variables.
 Do not use the target variable (e.g. remove redundant variables). it is further categorized into three main categories. 
     
     **- Filter Method:** 
+    Select subsets of features based on their relationship with the target.
+    - Basics: (Constant, Quasi-Constant, Duplicated)
+    - Correlation 
+    - Statistical measures: (Fisher Score, Univariate method, mutual information)
+
+    **- Wrapper method:**
+    Search subsets of features that perform according to a predictive model.
+    - Step forward Selection 
+    - Step Backward Selection 
+    - Exhaustive Search 
+    - Feature shuffling 
+
+    **- Embedded Methods:**
+    - LASSO
+    - Decision tree derived importance 
+    - Regression Coefficients 
+
+    **- Hybrid Methods:**
+    - Recursive Feature Elimination 
