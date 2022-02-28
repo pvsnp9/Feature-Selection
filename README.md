@@ -14,7 +14,7 @@ Use the target variable (e.g. remove irrelevant variables). it is further catego
     Select subsets of features based on their relationship with the target.
         - Basics: (Constant, Quasi-Constant, Duplicated)
         - Correlation 
-        - Statistical measures: (Fisher Score, Univariate method, mutual information)
+        - Statistical measures: (Information Gain, Fisher Score, Univariate method, mutual information)
 
     - Wrapper method:
     Search subsets of features that perform according to a predictive model.
